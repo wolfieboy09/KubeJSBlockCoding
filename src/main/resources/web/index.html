@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blockly in Java</title>
+    <script src="blockly/blockly_compressed.js"></script>
+    <script src="blockly/blocks_compressed.js"></script>
+    <script src="blockly/javascript_compressed.js"></script>
+    <script src="blockly/msg/en.js"></script>
+    <script src="kube_blocks.js"></script>
+</head>
+<body onload="initBlockly()">
+<p id="demo"></p>
+<div id="blocklyDiv" style="height: 480px; width: 800px;"></div>
+    <xml id="toolbox" style="display: none">
+        <block type="text"></block>
+        <block type="console"></block>
+        <block type="server_event"></block>
+    </xml>
+    <button onclick="generateCode()">Summon JavaScript Code</button>
+</body>
+</html>
