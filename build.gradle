@@ -1,6 +1,6 @@
 plugins {
     id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.13' // Apply the JavaFX plugin
+    id 'org.openjfx.javafxplugin' version '0.0.13'
 }
 
 repositories {
