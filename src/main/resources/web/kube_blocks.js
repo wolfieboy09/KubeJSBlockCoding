@@ -1,4 +1,6 @@
-try{
+// The fact that this works, and the error part is never reached makes me confused
+// Hey, if it works, it works
+try {
     let workspace;
 
     function initBlockly() {
@@ -64,6 +66,5 @@ try{
       console.log("Generation done")
     }
 } catch (error) {
-    // The fact that this works, and this is never reached makes me confused
     console.error("Global Error: ", error)
 }
