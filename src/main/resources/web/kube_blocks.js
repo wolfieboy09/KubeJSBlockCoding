@@ -64,5 +64,6 @@ try{
       console.log("Generation done")
     }
 } catch (error) {
+    // The fact that this works, and this is never reached makes me confused
     console.error("Global Error: ", error)
 }
