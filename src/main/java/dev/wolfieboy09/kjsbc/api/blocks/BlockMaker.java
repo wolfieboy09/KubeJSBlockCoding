@@ -11,7 +11,8 @@ public abstract class BlockMaker {
 
     public abstract Category getCategory();
     public abstract int getColor();
-    public abstract String getTooltip(String tooltip);
+    public abstract String getTooltip();
+    public abstract String getType();
 
     /**
      * This method adds a field to a field dropdown

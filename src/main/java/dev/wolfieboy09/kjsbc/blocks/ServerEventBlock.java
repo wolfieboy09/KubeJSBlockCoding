@@ -16,7 +16,12 @@ public class ServerEventBlock extends BlockMaker {
     }
 
     @Override
-    public String getTooltip(String tooltip) {
+    public String getTooltip() {
         return "Listen onto a server event";
+    }
+
+    @Override
+    public String getType() {
+        return "console";
     }
 }
