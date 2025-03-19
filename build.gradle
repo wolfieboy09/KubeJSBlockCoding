@@ -22,3 +22,19 @@ javafx {
 application {
     mainClass = 'dev.wolfieboy09.kjsbc.Main'
 }
+
+tasks.register("generateJsonIndex") {
+    group "util"
+    doLast {
+        def jsonFolder = file("src/main/resources/blocks")
+        def indexFile = file("src/main/resources/blocks/index.txt")
+
+        if (jsonFolder.exists() && jsonFolder.isDirectory()) {
+            def jsonFiles = jsonFolder.listFiles()
+                    .findAll { it.name.endsWith(".json") }
+                    .collect { it.name }
+
+            indexFile.text = jsonFiles.join("\n")
+        }
+    }
+}

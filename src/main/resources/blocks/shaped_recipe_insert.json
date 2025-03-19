@@ -1,0 +1,45 @@
+{
+  "type": "CraftingRecipe",
+  "tooltip": "",
+  "helpUrl": "",
+  "message0": "%1 %2 %3 %4 %5 %6 %7 %8",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "TOP_ROW",
+      "text": "AAA"
+    },
+    {
+      "type": "input_dummy",
+      "name": "TopRow"
+    },
+    {
+      "type": "input_end_row",
+      "name": "r1e"
+    },
+    {
+      "type": "field_input",
+      "name": "MIDDLE_ROW",
+      "text": "BBB"
+    },
+    {
+      "type": "input_dummy",
+      "name": "MiddleRow"
+    },
+    {
+      "type": "input_end_row",
+      "name": "r2e"
+    },
+    {
+      "type": "field_input",
+      "name": "BOTTOM_ROW",
+      "text": "CCC"
+    },
+    {
+      "type": "input_dummy",
+      "name": "BottomRow"
+    }
+  ],
+  "output": null,
+  "colour": 225
+}

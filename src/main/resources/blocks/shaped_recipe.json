@@ -1,0 +1,29 @@
+{
+  "type": "crafting_recipe",
+  "tooltip": "Create a recipe with the crafting table",
+  "helpUrl": "",
+  "message0": "Shaped Recipe %1 Shape: %2 %3 Keys: %4",
+  "args0": [
+    {
+      "type": "input_end_row",
+      "name": "STATEMENT"
+    },
+    {
+      "type": "input_value",
+      "name": "SHAPE",
+      "check": "CraftingRecipe"
+    },
+    {
+      "type": "input_end_row",
+      "name": "BLANK"
+    },
+    {
+      "type": "input_value",
+      "name": "KEY",
+      "check": "CraftingKeys"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 225
+}
